@@ -4,5 +4,5 @@ venv/
 flagged/
 *.DS_Store
 readme_azubi.md
-src/assets/tmp/history.csv
+src/assets/tmp/history*
 src/tmp.txt

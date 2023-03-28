@@ -1,4 +1,4 @@
-# 🚀 Streamlit Iris App 🚀
+# 🚀 Gradio Iris App 🚀
 
 There are many ways to make web interfaces to allow interaction with Machine Learning models and we will cover two of them.
 
@@ -31,7 +31,7 @@ You have two ways in order to setup and run this project.
 
 ### Setup
 
-You need [`Python3`](https://www.python.org/) on your system to setup this app. Then you can clone this repo and being at the repo's `root :: streamlit-iris-app> ...`  follow the steps below:
+You need [`Python3`](https://www.python.org/) on your system to setup this app. Then you can clone this repo and being at the repo's `root :: gradio-iris-app> ...`  follow the steps below:
 
 - Windows:
         
@@ -46,13 +46,19 @@ You need [`Python3`](https://www.python.org/) on your system to setup this app. 
 
 - Run the demo apps (being at the repository root):
 
-  Streamlit: 
+  Gradio: 
+  
+    For development
 
-      streamlit run src/app.py
+      gradio src/app.py
+    
+    For normal deployment/execution
+
+      python src/app.py  
 
   - Go to your browser at the following address :
         
-      http://localhost:8501
+      http://localhost:7860
 
 ## Repository Tree
 ```.
@@ -72,7 +78,7 @@ You need [`Python3`](https://www.python.org/) on your system to setup this app. 
 
 <table>
     <tr>
-        <th> Streamlit App </th>
+        <th> Gradio App </th>
     </tr>
     <tr>
         <td><img src="./screenshots/img001.jpeg"/></td>
@@ -81,7 +87,7 @@ You need [`Python3`](https://www.python.org/) on your system to setup this app. 
 
 ## Resources
 Here are some resources you could explore to get a good understanding of Streamlit :
-- [Get started with Streamlit](https://docs.streamlit.io/library/get-started/create-an-app)
+- [Get started with Gradio](https://gradio.app/quickstart)
 
 
 ## Contributing

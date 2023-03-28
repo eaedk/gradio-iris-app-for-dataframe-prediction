@@ -1,7 +1,6 @@
-streamlit
-watchdog
-pandas
+gradio==3.23.0
+pandas==1.5.3
 pytest
 # ML DEV
-scikit-learn
-pandas_profiling
+scikit-learn==1.2.2
+pandas-profiling==3.6.6
